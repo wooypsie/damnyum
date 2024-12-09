@@ -1,4 +1,4 @@
-function mudar() {
-    texto.style.color = 'red';
-  }
-  texto.a
+function change() {
+  text.style.color = "red";
+}
+text.a;
