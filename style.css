@@ -9,7 +9,6 @@ html,
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  color: #333;
 }
 body {
   display: flex;
@@ -19,6 +18,7 @@ body {
 }
 html {
   height: 100%;
+  text-transform: lowercase;
 }
 
 ul,
@@ -46,7 +46,6 @@ h6 {
   font-size: 20px;
   line-height: 1.3;
 }
-/*end css reset*/
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -70,8 +69,6 @@ h6 {
   padding: 0px;
   justify-self: start;
 }
-.right-column-introduction {
-}
 mark {
   background: #9795ae;
   color: #fff;
@@ -79,12 +76,4 @@ mark {
   padding-left: 16px;
   padding-right: 16px;
   font-weight: bold;
-}
-.right-column-likes {
-}
-.right-column-dislikes {
-}
-.right-column-favorites {
-}
-.right-column-stan {
 }
